@@ -21,6 +21,10 @@ What I discovered during the implementation:
 
 I stopped at this point to match the deadline, but with more time, I would have explored other solutions, 
 trying using a database for example.
+
+Small update: I quickly tried to set up a small database using DuckDB will the help of a LLM, inserting packets
+into the db without any optimization (like data compression) was really slow.
+I think, no matter what is the solution used, that I should have found a way to make data lighter to gain during writing.
 """
 
 import argparse
